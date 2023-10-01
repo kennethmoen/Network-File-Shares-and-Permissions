@@ -73,5 +73,5 @@ Folder: “accounting”, Group: “ACCOUNTANTS”, Permissions: “Read/Write�
 
 - Sign back into Client-1 as <someuser> and try to access the “accounting” share in \\DC-1\ - Does it work now?
 
- <img src="https://github.com/kennethmoen/Network-File-Shares-and-Permissions/assets/145589069/153a8271-25b2-431c-b1ea-1aa2c1eab157"/>
+ <img src="https://github.com/kennethmoen/Network-File-Shares-and-Permissions/assets/145589069/3765d778-8b38-4188-9250-537c7166d090"/>
 </p>
