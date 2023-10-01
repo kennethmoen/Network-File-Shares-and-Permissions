@@ -49,3 +49,29 @@ In this lab will be sharing files and folders throughout the network and giving 
 
   
 <p>
+
+<p>
+  <h2>Create an “ACCOUNTANTS” Security Group, assign permissions, an test access
+</h2>
+Go back to DC-1, in Active Directory, create a security group called “ACCOUNTANTS”
+ <img src="https://github.com/kennethmoen/Network-File-Shares-and-Permissions/assets/145589069/5e66a111-15f8-42dd-8cc3-118142db41c7"/>
+
+On the “accounting” folder you created earlier, set the following permissions:
+Folder: “accounting”, Group: “ACCOUNTANTS”, Permissions: “Read/Write”
+  
+ <img src="https://github.com/kennethmoen/Network-File-Shares-and-Permissions/assets/145589069/0f6e06f3-008c-4293-9a59-a6c9f4516e09"/>
+
+- On Client-1, as  <someuser>, try to access the accountants folder. It will fail.
+
+- Log out of Client-1 as  <someuser>
+
+  <img src="https://github.com/kennethmoen/Network-File-Shares-and-Permissions/assets/145589069/5a37a799-2cdd-439d-ba7c-c9ba3e7cd98a"/>
+
+- On DC-1, make <someuser> a member of the “ACCOUNTANTS”  Security Group. Mine was baf.xuq.
+
+<img src="https://github.com/kennethmoen/Network-File-Shares-and-Permissions/assets/145589069/a7729715-e5f3-47ad-99e9-017adabbf32d"/>
+
+- Sign back into Client-1 as <someuser> and try to access the “accounting” share in \\DC-1\ - Does it work now?
+
+ <img src="https://github.com/kennethmoen/Network-File-Shares-and-Permissions/assets/145589069/153a8271-25b2-431c-b1ea-1aa2c1eab157"/>
+</p>
